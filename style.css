@@ -1,0 +1,68 @@
+body, html {
+    text-decoration: none;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.container-main {
+    background-image: url(img/studi-dons.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.section-main > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.4);
+}
+
+.section-main > button {
+    margin-bottom: 20px;
+}
+
+.second-article {
+    background-color: #1868ad;
+}
+
+.second-article h2 {
+    margin-top: 70px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.second-article h4 {
+    color: #71b544;
+    padding-top: 10px;
+}
+
+.second-article p {
+    color: rgb(215, 215, 215);
+}
+
+.second-article .row {
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.second-article .col {
+    padding-bottom: 20px;
+}
+
+.footer {
+    color: rgb(215, 215, 215);
+}
+
+.footer > .container {
+    padding-top: 50px;
+}
+
+ @media screen and (max-width: 767px) {
+    .second-article .row {
+        flex-direction: column;
+    }
+ }
