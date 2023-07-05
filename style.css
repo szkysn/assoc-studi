@@ -74,4 +74,12 @@ body, html {
     .second-article .row {
         flex-direction: column;
     }
- }
+
+    .second-footer {
+        flex-direction: column;
+    }
+
+    .second-footer > .col {
+        margin-top: 8px;
+    }
+}
